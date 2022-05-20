@@ -1,5 +1,13 @@
 package entities;
 
-public class InterfaceConta {
+public interface InterfaceConta {
     
+    void sacar();
+
+    void depositar();
+
+    void transferir();
+
+    void imprimirExtrato();
+
 }
