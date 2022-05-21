@@ -2,12 +2,12 @@ package entities;
 
 public interface InterfaceConta {
     
-    void sacar();
+    void depositar(Double Valor);
+    
+    void sacar(Double valor);
 
-    void depositar();
+    void transferir(Double valor, Conta contaDestino);
 
-    void transferir();
-
-    void imprimirExtrato();
+    void imprimirExtrato(Client cliente);
 
 }
